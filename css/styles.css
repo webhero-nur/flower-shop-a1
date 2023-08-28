@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    background-color: #e15274;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+
+/* banner styles */
+#banner {
+    background-color: #fceef1;
+}
+
+.banner-content {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+.banner-text, .banner-img {
+    width: 50%;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+}
+
+.banner-text div h1 {
+    font-size: 50px;
+}
+
+.banner-text div p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.banner-img {
+    display: flex;
+    justify-content: end;
+}
+
+.banner-img img {
+    height: 500px;
+}
+
+/* featured section */
+#featured {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.featured-text {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.featured-text h2 {
+    font-size: 35px;
+}
+
+.featured-text p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: darkgray;
+}
+
+.featured-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card {
+    width: 30%;
+}
+
+.card div {
+    height: 350px;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card-1 div, .card-3 div {
+    align-items: flex-end;
+}
+
+.card-1 div {
+    background-color: #fceef1;
+}
+
+.card-2 div {
+    align-items: center;
+    background-color: rgb(220, 252, 252);
+}
+
+.card-3 div {
+    background-color: rgb(220, 255, 220);
+}
+
+.card div img {
+    height: 75%;
+}
+
+.card p {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+
+/* hot deal section */
+#hot-deal {
+    background-color: #fceef1;
+    margin: 50px auto;
+}
+
+.hot-deal-content {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hot-deal-text, .hot-deal-img {
+    width: 50%;
+}
+
+.hot-deal-text {
+    display: flex;
+    align-items: center;
+}
+
+.hot-deal-text div {
+    text-align: center;
+}
+
+.hot-deal-text div h2 {
+    font-size: 35px;
+}
+
+.hot-deal-text div h2 span {
+    color:#e15274;
+}
+
+.hot-deal-text p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: darkgray;
+}
+
+.hot-deal-img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hot-deal-img img {
+    height: 250px;
+}
+
+/* instagram section */
+#instagram {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.instagram-text {
+    text-align: center;
+}
+
+.instagram-text h2 {
+    font-size: 35px;
+}
+
+.instagram-text p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: darkgray;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-images img {
+    width: 24%;
+}
+
+/* review or complain section */
+#review-complain {
+    background-color: #fceef1;
+}
+
+.review-complain-content {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.review-complain-content h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.review-complain-form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.review-complain-form input,.review-complain-form textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.review-complain-form div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* latest deals section */
+#latest-deals {
+    max-width: 1200px;
+    margin: 50px auto;
+    background-image: url("../images/newsletter.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.latest-deals-content {
+    padding: 120px;
+}
+
+.latest-deals-content {
+    display: flex;
+    justify-content: center;
+}
+
+.latest-deals-content div {
+    text-align: center;
+}
+
+.latest-deals-content div h2 {
+    font-size: 35px;
+}
+
+.latest-deals-content div p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: darkgray;
+}
+
+.newsletter-form input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+    width: 450px;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-content h2 {
+    font-size: 35px;
+}
+
+.footer-content h2 span {
+    color: #e15274;
+}
+
+.footer-content p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-content p small {
+    color: gray;
+}
